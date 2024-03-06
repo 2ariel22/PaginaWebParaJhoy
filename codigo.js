@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         imagenesSecundarias.forEach(function(imagen) {
             imagen.style.animation = "none";
             setTimeout(function() {
-                imagen.style.animation = "example 2s ease-in-out forwards";
+                imagen.style.animation = "example2 2s ease-in-out forwards";
             }, 100);
         });
     });
