@@ -1,0 +1,71 @@
+body{
+    background-color: aquamarine;
+}
+.Titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ImagenPrincipal img{
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px black;
+    
+   
+    
+}
+@keyframes example {
+    0%   {left: 0px;}
+    100% {left: 500px;}
+  }
+.ImagenPrincipal img:hover{
+
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    transition: ease;
+
+}
+
+.ImagenSecundaria{
+    
+    display: flex;
+    justify-content: space-around;
+ 
+    
+}
+.ImagenSecundaria img{
+    
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px black;
+    
+   
+    
+}
+.boton{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    
+    
+}
+
+.boton button{
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 200px; /* Ancho del botón */
+    
+    
+}
+.boton button:first-child{
+    background-color: blue;
+}
+.boton button:last-child{
+    background-color: red;
+}
+@keyframes example {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
